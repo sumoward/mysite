@@ -61,5 +61,9 @@ print(django.__path__)"
 To override a template, just do the same thing you did with base_site.html
  – copy it from the default directory into your custom directory, and make changes.
  
+ 
+ python3.2 manage.py runserver 0.0.0.0:8000
+ 
+ 
 
 
