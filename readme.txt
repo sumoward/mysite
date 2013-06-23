@@ -35,3 +35,6 @@ to get admin working uncomment the lines in url.py and settings.py
 
 
 superuser: development password :qwerty
+
+
+add an admin.py to each app so that admin knows its there.
