@@ -65,5 +65,6 @@ To override a template, just do the same thing you did with base_site.html
  python3.2 manage.py runserver 0.0.0.0:8000
  
  
-
+login:development
+pw:qwerty
 
