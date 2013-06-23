@@ -1,3 +1,6 @@
+
+	Some stuff to remmeber when setting up the tutorial site.
+
 Use python3.2 on command line
 
 python3.2 manage.py runserve
@@ -33,8 +36,30 @@ __str__() on Python 3 to your models
 
 to get admin working uncomment the lines in url.py and settings.py
 
-
 superuser: development password :qwerty
 
-
 add an admin.py to each app so that admin knows its there.
+
+in admin.py, set list desplay.
+useful admin settings:
+ist_display
+
+list_filter[]
+search_fields
+date_hierarchy
+
+
+django location code:
+
+ python3.2 -c "
+import sys
+sys.path = sys.path[1:]
+import django
+print(django.__path__)"
+
+
+To override a template, just do the same thing you did with base_site.html
+ – copy it from the default directory into your custom directory, and make changes.
+ 
+
+
