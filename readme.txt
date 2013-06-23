@@ -31,4 +31,7 @@ __str__() on Python 3 to your models
 # Django provides a rich database lookup API that's entirely driven by
 # keyword arguments
 
+to get admin working uncomment the lines in url.py and settings.py
 
+
+superuser: development password :qwerty
