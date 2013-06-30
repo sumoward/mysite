@@ -75,6 +75,15 @@ I had to add the full path for sqllite to work with views '/home/development/aad
 return render(request, 'polls/detail.html', {'poll': poll})
 
 
+#good practice
+
+a separate TestClass for each model or view
+a separate test method for each set of conditions you want to test
+test method names that describe their function
+
+
+
+
 
 
 
