@@ -68,3 +68,29 @@ To override a template, just do the same thing you did with base_site.html
 login:development
 pw:qwerty
 
+I had to add the full path for sqllite to work with views '/home/development/aadevelopment/mysite/sqlite.db'
+
+#The render() function takes the request object as its first argument, a template name as its second argument and a dictionary as its optional third argument.  e.g.
+
+return render(request, 'polls/detail.html', {'poll': poll})
+
+
+#good practice
+
+a separate TestClass for each model or view
+a separate test method for each set of conditions you want to test
+test method names that describe their function
+
+polls/static/polls/style.css
+
+
+
+
+
+
+
+
+
+
+
+
