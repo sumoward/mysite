@@ -50,6 +50,7 @@ class PollViewTests(TestCase):
         If no polls exist, an appropriate message should be displayed.
         """
         response = self.client.get(reverse('polls:index'))
+        print(response)
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "No polls are available.")
         self.assertQuerysetEqual(response.context['latest_poll_list'], [])
